@@ -5,7 +5,7 @@
 
 **Disciplina:** Estrutura de Dados II | Unidade III: Grafos
 **Professora:** Kadidja Valéria
-**Aluna:** Isaú júlio, Kamile Dias, Thales da Mata e Thierry Henry
+**Alunos:** Isaú júlio, Kamile Dias, Thales da Mata e Thierry Henry
 
 ## Desafio Proposto
 

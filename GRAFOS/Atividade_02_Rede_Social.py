@@ -1,19 +1,25 @@
 rede = {
     "Ana": ["Bruno", "Carla", "Kátia"],
-     "Kátia": ["Ana", "Elisa"],
+    "Kátia": ["Ana", "Elisa"],
     "Bruno": ["Ana", "Carla", "Diego"],
     "Carla": ["Ana", "Bruno", "Elisa"],
     "Diego": ["Bruno", "Elisa", "Felipe", "Gabi"],
-    "Elisa": ["Carla", "Diego", "Felipe", "Kátia"],
-    "Felipe": ["Diego", "Elisa", "Julia"],
-     "Gabi": ["Diego", "Hugo"],
-     "Julia": ["Hugo", "Igor", "Felipe"],
-     "Nicolas": ["Igor", "Olivia"],
-     "Igor": ["Julia", "Hugo", "Nicolas"],
-     "Olivia": ["Lucas", "Nicolas"],
-      "Lucas": ["Hugo", "Olivia"],
-      "Hugo": ["Gabi", "Mariana", "Lucas", "Igor", "Julia"],
-      "Mariana": ["Hugo"]
+    "Elisa": ["Carla", "Diego", "Felipe", "Kátia", "Pedro"],
+    "Felipe": ["Diego", "Elisa", "Julia", "Rodrigo"],
+    "Gabi": ["Diego", "Hugo", "Thales"],
+    "Julia": ["Hugo", "Igor", "Felipe"],
+    "Nicolas": ["Igor", "Olivia", "Úrsula"],
+    "Igor": ["Julia", "Hugo", "Nicolas"],
+    "Olivia": ["Lucas", "Nicolas"],
+    "Lucas": ["Hugo", "Olivia"],
+    "Hugo": ["Gabi", "Mariana", "Lucas", "Igor", "Julia"],
+    "Mariana": ["Hugo"],
+    "Thales": ["Gabi"],
+    "Úrsula": ["Nicolas"],
+    "Sofia": ["Pedro", "Rodrigo"],
+    "Pedro": ["Elisa", "Rodrigo", "Sofia"],
+    "Rodrigo": ["Felipe", "Pedro", "Sofia"]
+
      }
 
 n = len(rede)  # n representa o número total de vértices (nós/pessoas) na rede
